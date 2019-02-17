@@ -1,6 +1,5 @@
 
 import {Component, OnInit} from '@angular/core';
-import {Item} from '../../models/item';
 import {MockItemsService} from '../../services/item/mock-items.service';
 
 @Component({

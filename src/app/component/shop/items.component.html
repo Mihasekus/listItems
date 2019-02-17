@@ -1,5 +1,5 @@
 <div class="content">
-  <table cellpadding="5px">
+  <table id="items" cellpadding="5px">
     <thead>
     <tr>
       <th class="header" (click)="filter('id')">
@@ -21,6 +21,7 @@
 
     <tbody>
     <tr *ngIf="!items?.length" >
+      <td></td>
       <td>
         No data available in table
       </td>
