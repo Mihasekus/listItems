@@ -1,0 +1,33 @@
+.small_input {
+  width: 30px;
+  margin-left: 5px;
+}
+
+.header {
+  text-align: left;
+}
+
+.content {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+input {
+  font-size:12px;
+  font-family:Tahoma, Geneva, sans-serif;
+  color:#000000;
+  margin:0 0 6px 0;
+}
+
+
+table {
+  table-layout: fixed;
+  width: 30%;
+  border-collapse: collapse;
+  border: 3px solid;
+}
+
+thead th:nth-child(1) {
+  width: 15%;
+}
+
