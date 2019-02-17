@@ -1,5 +1,5 @@
 <div class="content">
-  <table>
+  <table cellpadding="5px">
     <thead>
     <tr>
       <th class="header" (click)="filter('id')">
@@ -14,7 +14,7 @@
         <input type="text" style="width: 100%" placeholder="No" (input)="search('id',searchId)" [(ngModel)]="searchId"/>
       </th>
       <th class="header">
-        <input type="text"  placeholder="Name" (input)="search('name',searchName)" [(ngModel)]="searchName"/>
+        <input type="text"  style="width: 100%" placeholder="Name" (input)="search('name',searchName)" [(ngModel)]="searchName"/>
       </th>
     </tr>
     </thead>
